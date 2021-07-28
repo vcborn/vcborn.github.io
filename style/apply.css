@@ -1,0 +1,23 @@
+article{
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+article h2, h3{
+  text-align: center;
+  margin: 0;
+}
+iframe{
+  width: 800px;
+  height: 1620px;
+}
+/* レスポンシブ */
+
+@media screen and (max-width: 1000px){
+  article{
+    width: 95%;
+  }
+  iframe{
+    width: 100%;
+  }
+}

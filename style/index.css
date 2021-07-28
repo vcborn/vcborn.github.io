@@ -1,0 +1,30 @@
+div.linux, div.vclight{
+  text-align: center;
+}
+.linux, .vclight{
+  z-index: 9999;
+  /* Information: Now, This logo image isn't logo, it's VCborn's logo. */
+  background-image: url('/images/vclinux-logo.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 40vmin;
+}
+.linux div, .vclight div{
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  position: absolute;
+  bottom: 12%;
+  width: calc(100% - 20px);
+}
+.vclight{
+  background-image: url('/images/vclight.png');
+}
+.linux a, .vclight a{
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+  margin-top: 30px;
+}

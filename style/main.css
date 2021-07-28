@@ -1,0 +1,112 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap');
+
+:root{
+  --main-color: #E1E6F0;
+  --main-color-thin: #e1e6f0aa;
+}
+
+*{
+  margin: 0;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+}
+body,html,main{
+  background-color: var(--main-color);
+  user-select: auto;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+header{
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #fff9;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  vertical-align: middle;
+  user-select: none;
+  z-index: 9999;
+}
+header *{
+  display: inline-block;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  vertical-align: middle;
+}
+header h1{
+  text-align: center;
+  width: 100%;
+}
+header a{
+  top: 5.5px;
+  float: right;
+  padding: 2px;
+  font-size: 20px;
+  background-color: inherit!important;
+  box-shadow: 5px 5px 15px #111;
+}
+
+main{
+  position: relative;
+  padding-top: 50px;
+  display: block;
+  height: auto;
+}
+main>*>div, main>.neumorphism>div{
+  margin-left: 20%;
+  width: 60%;
+}
+main>*:not(footer) a{
+  background-color: #ddd;
+  color: #222;
+  text-decoration: none;
+}
+main>*:not(:first-child){
+  margin-top: 30px;
+  z-index: 9998;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dl, .dl, .dl, div.dl{
+  display: none;
+  position: fixed;
+  top: 30px;
+  right: 0;
+  width: 40vh;
+  min-width: 250px;
+  height: 45vh;
+  min-height: 170px;
+  overflow: auto;
+  box-shadow: 3px 3px 10px #4a4a4add;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.dl a,.dl a,.dl a,div.dl a{
+  background: none;
+}
+
+@media (orientation: portrait) {
+  .linux, .vclight{
+    background-position: 0 -25px;
+    background-size: cover;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  header{
+    background-color: #0009;
+  }
+  header *{
+    color: #fff;
+  }
+}
