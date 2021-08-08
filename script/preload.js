@@ -9,7 +9,7 @@ function closedl() {
 
 window.onload=()=>{
   document.body.innerHTML=`<header>
-  <h1><span onclick="location.href='/'" style="top: -5px;">VCborn</span><a href="javascript:opendl()" class="neumorphism-mini">ダウンロード</a></h1>
+  <h1><span onclick="location.href='/'" style="top: -5px;">VCborn</span><!--a href="javascript:opendl()" class="neumorphism-mini">ダウンロード</a--></h1>
 </header>${document.body.innerHTML}`;
 
   document.getElementsByTagName('main')[0].innerHTML=`${document.getElementsByTagName('main')[0].innerHTML}
