@@ -13,6 +13,8 @@
 body,html,main{
   background-color: var(--main-color);
   user-select: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #fffa #fff0;
 }
 a{
   text-decoration: none;
