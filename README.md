@@ -3,4 +3,4 @@
 
 ## 加入応募はこちらから↓
 
-[https://vcborn.github.io/apply](https://vcborn.github.io/apply)
+[https://vcborn.com/join.html](https://vcborn.com/join.html)
