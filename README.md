@@ -1,5 +1,5 @@
 # VCbornのホームページ
-こちらがホーム。[https://vcborn.github.io/](https://vcborn.github.io)
+こちらがホーム。[https://vcborn.com/](https://vcborn.com/)
 
 ## 加入応募はこちらから↓
 
